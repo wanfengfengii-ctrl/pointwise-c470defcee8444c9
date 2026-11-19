@@ -1,0 +1,13 @@
+{
+  "first_commit": 40,
+  "retention": 8,
+  "partition": "东区",
+  "interval": [40, 42],
+  "page_size": 1,
+  "batches": [
+    {"id": "opening", "edits": [["insert", "r", "东区", 5]]},
+    {"id": "transfer", "edits": [["update", "r", "西区", 7]]},
+    {"id": "return", "edits": [["update", "r", "东区", 5]]},
+    {"id": "late", "edits": [["update", "r", "东区", 9]]}
+  ]
+}
